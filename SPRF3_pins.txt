@@ -1,0 +1,56 @@
+STM32F303CC (LQFP48)
+
+SOFTSERIAL1-rx:PWM5
+SOFTSERIAL1-tx:PWM6
+SOFTSERIAL2-rx:PWM7
+SOFTSERIAL2-tx:PWM8
+ADC_DMA_CHANNEL DMA2_CH11
+
+1       VBAT
+2       PC13    MPU-6050 INTA
+3       PC14/OSC32_IN   HCM5883 DRDY
+4       PC15/OSC32_OUT  BEEPER
+5       PF0/OSC_IN
+6       PF1/OSC_OUT
+7       NRST
+8       VSSA/VREF
+9       VDDA
+10      PA0     RC1 (RX_PPM)
+11      PA1     RC2 (naze RSSI_ADC)
+12      PA2     PWM7 (naze RC3/USART2_TX)
+13      PA3     PWM8 (naze RC4/USART2_RX)
+14      PA4     VBAT_ADC
+15      PA5     CURRENT_METER_ADC
+16      PA6     PWM1 (naze RC5/LED_STRIP/SOFTSERIAL1_RX)
+17      PA7     PWM2 (naze RC6/SOFTSERIAL1_TX)
+18      PB0     RC7 (naze SONAR_TRIG/SOFTSERIAL2_RX)
+19      PB1     RC8 (naze SONAR_ECHO/CURRENT/SOFTSERIAL2_TX)
+20      PB2     RSSI_ADC
+21      PB10    RC4 USART3-TX   3.3V/IO2_4
+22      PB11    RC3 USART3-RX   3.3V/IO2_3
+23      VSS
+24      VDD
+25      PB12    SPI2(M25P16)
+26      PB13    SPI2
+27      PB14    SPI2
+28      PB15    SPI2
+29      PA8     LED_STRIP
+30      PA9     USART1-TX       5VT
+31      PA10    USART1-RX       5VT
+32      PA11    PWM3
+33      PA12    PWM4
+34      PA13    *** OPEN? ***
+35      VSS
+36      VDD
+37      PA14    USART2-TX       5VT
+38      PA15    USART2-RX       5VT
+39      PB3     LED
+40      PB4     RC5
+41      PB5     RC6
+42      PB6     I2C-SCL
+43      PB7     I2C-SDA
+44      BOOT0
+45      PB8     PWM5
+46      PB9     PWM6
+47      VSS
+48      VDD
